@@ -45,9 +45,7 @@ vim ~/.vimrc
 mkdir ~/.vim/colors
 ```
 
-將下載好的color schemez.vim放到colors資料夾
-以我為例: color Scheme = skyhawk
-並在vimrc設定檔中加入colorscheme skyhawk
+將下載好的color schemez.vim放到colors資料夾，以我為例: color scheme = skyhawk，並在vimrc設定檔中加入colorscheme skyhawk
 
 ```
 mv skyhawk.vim ~/.vim/colors/
