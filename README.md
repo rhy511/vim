@@ -8,12 +8,12 @@
 首先下載vim文字編輯器
 
 ```
-sudo apt-get install vim
+$ sudo apt-get install vim
 ```
 查看vim版本
 
 ```
-vim --version
+$ vim --version
 ```
 
 ## 安裝Vundle套件管理器
@@ -21,13 +21,13 @@ vim --version
 [下載Vundle](https://github.com/VundleVim/Vundle.vim)
 
 ```
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
 自訂vimrc設定檔
 
 ```
-vim ~/.vimrc
+$ vim ~/.vimrc
 ```
 
 建立好vimrc檔案後就可以自行配置
@@ -42,32 +42,32 @@ vim ~/.vimrc
 建立colors檔案資料夾
 
 ```
-mkdir ~/.vim/colors
+$ mkdir ~/.vim/colors
 ```
 
 將下載好的color schemez.vim放到colors資料夾，以我為例: color scheme = skyhawk，並在vimrc設定檔中加入colorscheme skyhawk
 
 ```
-mv skyhawk.vim ~/.vim/colors/
-vim ~/.vimrc
+$ mv skyhawk.vim ~/.vim/colors/
+$ vim ~/.vimrc
 ```
 
 若還有需要額外套件，先下載至本地端，再寫入vimrc設定檔中(使用file + 絕對路徑)
 
 ```
-Plugin 'file:///home/XXX/.vim/colors/skyhawk.vim'
+$ Plugin 'file:///home/XXX/.vim/colors/skyhawk.vim'
 ```
 
 最後進入vim中，並輸入下列指定即可安裝套件
 
 ```
-:PluginInstall
+$ :PluginInstall
 ```
 
 若有些套件需要移除，將vimrc設定檔的套件刪除，並執行下列指令即可移除套件
 
 ```
-:PluginClean
+$ :PluginClean
 ```
 
 ## 問題解決
